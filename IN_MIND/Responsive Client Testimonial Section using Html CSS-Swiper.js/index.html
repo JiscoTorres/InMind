@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="LOGO_Inmind.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>InMind.com</title>
+
+</head>
+<header>
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="logoBox">
+                <img src="LOGO_InMind.png" alt="logo">
+            </div>
+            <div class="searchBox">
+                <input type="search">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="iconBox1">
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-user-group"></i>
+                <i class="fa-solid fa-video"></i>
+
+            </div>
+            <div class="iconBox2">
+                <i class="fa-solid fa-circle-plus"></i>
+                <i class="fa-brands fa-facebook-messenger"></i>
+                <i class="fa-solid fa-bell"></i>
+                <label><img src="Design sem nome (13).png" alt="user"></label>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+    </div>
+</header>
+<a href=""><h3 class="mini-headig" title="Tela inicial InMind">🠔 VOLTAR</h3></a>
+
+<body>
+    <h3 class="mini-headign">DIÁRIO PESSOAL</h3>
+    <section>
+    <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="width: 320px;">
+                    <div class="testimonialBox">
+                        <img src="right-quote.png" class="quote" alt="">
+                        <div class="content">
+                            <p>Hoje foi um ótimo dia, fiz meus afazeres domésticos e fui para o trabalho muito feliz! Comi 20 trufas de Oreo e 5 cones de prestígio. Porém, ainda percebo que estava muito ansioso com algo que não sabia exatamente o que era.</p>
+                            <div class="details">
+                                <div class="imgBx">
+                                    <img src="Design sem nome (13).png" alt="">
+                                </div>
+                                <h3>Igor Vinícius<br><span>06/10/2022</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="width: 320px;" >
+                    <div class="testimonialBox">
+                        <img src="right-quote.png" class="quote" alt="">
+                        <div class="content">
+                            <p>Hoje foi um ótimo dia, fiz meus afazeres domésticos e fui para o trabalho muito feliz! Comi 20 trufas de Oreo e 5 cones de prestígio. Porém, ainda percebo que estava muito ansioso com algo que não sabia exatamente o que era.</p>
+                            <div class="details">
+                                <div class="imgBx">
+                                    <img src="Design sem nome (13).png" alt="">
+                                </div>
+                                <h3>Igor Vinícius<br><span>05/10/2022</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="width: 320px;">
+                    <div class="testimonialBox">
+                        <img src="right-quote.png" class="quote" alt="">
+                        <div class="content">
+                            <p>Hoje foi um ótimo dia, fiz meus afazeres domésticos e fui para o trabalho muito feliz! Comi 20 trufas de Oreo e 5 cones de prestígio. Porém, ainda percebo que estava muito ansioso com algo que não sabia exatamente o que era.</p>
+                            <div class="details">
+                                <div class="imgBx">
+                                    <img src="Design sem nome (13).png" alt="">
+                                </div>
+                                <h3>Igor Vinícius<br><span>04/10/2022</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 2,
+            slideShadows: true,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        loop: true,
+        });
+    </script>
+
+    <div class="footer">
+        <p>© 2022 InMind™ Todos os Direitos Reservados</p>
+    </div>
+</body>
+</html>
